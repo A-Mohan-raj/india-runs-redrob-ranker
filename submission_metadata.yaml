@@ -1,0 +1,43 @@
+# Redrob Hackathon — Submission Metadata
+team_name: "IndiaRuns Founding AI Ranker"
+
+primary_contact:
+  name: "Mohanraj"
+  email: "mohanraj@example.com"
+  phone: "+91-9876543210"
+
+team_members:
+  - name: "Mohanraj"
+    email: "mohanraj@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/Mohanraj/india-runs-redrob-ranker"
+sandbox_link: "https://huggingface.co/spaces/Mohanraj/redrob-ranker"
+reproduce_command: "python rank_candidates.py"
+
+compute:
+  platform: "Windows PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.4"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+  - "Gemini"
+
+ai_usage_summary: "Used Gemini for architectural planning and script coding. Used Claude for validation and code structure improvement."
+
+methodology_summary: |
+  Deterministic, CPU-only sequential candidate scanner with active honeypot detector, service company penalizer, academic background filters, and notice period + profile activity behavioral signal multipliers. Runs in under 30 seconds for 100K profiles.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
